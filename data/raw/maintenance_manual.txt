@@ -1,0 +1,57 @@
+# ForgeIQ Demo Facility
+
+# Equipment Maintenance Manual
+
+Document ID: FIQ-MNT-001
+Revision: 1.0
+Document Type: Maintenance Manual
+
+## 1. Purpose
+
+This document describes general maintenance concepts for the fictional ForgeIQ Demo Facility injection-molding production line. It is intended for developing and testing the ForgeIQ document retrieval system. It is not an approved industrial operating procedure.
+
+## 2. Injection-Molding Machine Components
+
+An injection-molding machine contains several major subsystems: the injection unit, clamping unit, mold assembly, hydraulic or electric drive system, temperature control system, and machine control system.
+
+The injection unit heats polymer material and injects it into the mold. The clamping unit holds the mold closed during injection. The temperature control system regulates the temperatures of relevant machine zones according to the material and process requirements.
+
+A malfunction in any of these subsystems may affect production quality, machine availability, or process consistency.
+
+## 3. Preventive Maintenance
+
+Preventive maintenance involves planned inspections and maintenance activities intended to reduce unexpected equipment failures.
+
+Typical maintenance categories include mechanical inspection, lubrication, electrical inspection, cleaning, and verification of measurement instruments.
+
+Maintenance intervals must be established using approved equipment documentation, manufacturer recommendations, operating conditions, and the site's maintenance program.
+
+This document does not establish specific maintenance intervals or authorize maintenance activities on real equipment.
+
+## 4. Hydraulic System Monitoring
+
+For machines equipped with hydraulic systems, maintenance personnel may monitor documented indicators such as hydraulic fluid condition, leakage, unusual noise, and abnormal operating temperature.
+
+Observed abnormalities should be recorded and assessed according to the equipment manufacturer's documentation and the site's approved maintenance procedures.
+
+Hydraulic systems can retain hazardous stored energy. Inspection and maintenance must follow the applicable approved isolation and safety procedures.
+
+## 5. Temperature Control
+
+Injection-molding processes depend on appropriate temperature conditions for the material, mold, and machine.
+
+Temperature deviations may contribute to inconsistent material flow, dimensional variation, surface defects, or other process abnormalities.
+
+Temperature readings should be compared with the approved process specification for the relevant material and product. This document does not define universal temperature setpoints.
+
+## 6. Maintenance Records
+
+A useful maintenance record includes the equipment identifier, date and time, reported symptom, observed condition, maintenance activity, replacement parts if applicable, responsible personnel, and verification outcome.
+
+Records support traceability, recurring-failure analysis, and maintenance planning.
+
+## 7. Escalation
+
+Unexplained abnormalities, recurring faults, and conditions that may affect personnel safety should be escalated through the site's approved maintenance and safety processes.
+
+An AI assistant may help locate relevant documentation, but it must not replace qualified engineering judgment, approved procedures, or equipment-specific instructions.

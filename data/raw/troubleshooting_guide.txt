@@ -1,0 +1,86 @@
+# ForgeIQ Demo Facility
+
+# Equipment Troubleshooting Guide
+
+Document ID: FIQ-TSG-001
+Revision: 1.0
+Document Type: Troubleshooting Guide
+Status: Fictional document for ForgeIQ development and testing
+
+## 1. Purpose
+
+This guide provides general examples of equipment symptoms, possible contributing factors, and information that maintenance personnel may need to investigate.
+
+The guide is intended for testing the ForgeIQ document retrieval system. It is not an approved troubleshooting procedure for real industrial equipment.
+
+Symptoms do not establish a confirmed root cause. Actual diagnosis must follow the equipment manufacturer's documentation and the site's approved maintenance and safety procedures.
+
+## 2. Abnormal Operating Temperature
+
+Abnormally high or unstable operating temperatures may indicate a problem requiring further investigation.
+
+Possible contributing factors include restricted cooling, inadequate temperature regulation, a faulty temperature sensor, or operating conditions outside the approved process specification.
+
+Relevant information to record includes the affected machine zone, observed temperature, time of occurrence, operating conditions, and any associated alarms.
+
+Temperature readings should be compared with the approved specifications for the particular machine, material, and process.
+
+This guide does not establish universal temperature limits or authorize adjustments to temperature settings.
+
+## 3. Unusual Hydraulic System Noise
+
+Unusual noise from a hydraulic system may indicate a condition requiring investigation.
+
+Possible contributing factors include abnormal fluid conditions, air entering the hydraulic circuit, a developing mechanical problem, or changes in operating conditions.
+
+Relevant observations include the type of noise, when it occurs, whether it is intermittent or continuous, any visible leakage, and any associated alarms or performance changes.
+
+Maintenance personnel must not assume that noise alone identifies a specific failed component.
+
+Hydraulic equipment may contain hazardous stored energy. Investigation and maintenance must follow approved isolation and safety procedures.
+
+## 4. Hydraulic Leakage
+
+Visible hydraulic fluid leakage should be documented and assessed according to the applicable equipment documentation and site procedures.
+
+Useful observations include the apparent location of the leakage, when it was first noticed, whether the condition is recurring, and whether other abnormal symptoms are present.
+
+Personnel must not touch, loosen, or attempt to repair pressurized hydraulic connections as an informal diagnostic check.
+
+Suspected pressure-related hazards require appropriate isolation and assessment by qualified personnel.
+
+This guide does not authorize continued operation of equipment with a suspected safety-critical fault.
+
+## 5. Inconsistent Machine Operation
+
+Inconsistent machine operation may be associated with changes in operating conditions, control-system alarms, sensor readings, or mechanical and electrical abnormalities.
+
+Useful information includes the machine operating state, the sequence of events before the symptom occurred, active alarm messages, relevant sensor readings, and whether the symptom is repeatable.
+
+Recorded observations should distinguish between what was directly observed and what is only a suspected cause.
+
+If the cause remains unexplained, the issue should be escalated through the approved maintenance process.
+
+## 6. Diagnostic Information and Records
+
+A useful troubleshooting record should include:
+
+* Equipment identifier.
+* Date and time of the reported symptom.
+* Description of the observed abnormality.
+* Relevant sensor readings and operating conditions.
+* Alarm messages, if present.
+* Checks performed by authorized personnel.
+* Findings and confirmed causes, if established.
+* Corrective actions and verification results.
+* Responsible personnel and escalation details.
+
+A suspected cause must not be recorded as confirmed unless supported by appropriate evidence.
+
+## 7. Escalation and Safety
+
+Abnormalities that may affect personnel safety, equipment integrity, or production must be handled according to the site's approved procedures.
+
+Unexplained or recurring faults should be escalated to appropriately qualified maintenance or engineering personnel.
+
+ForgeIQ may help locate relevant documentation and summarize recorded information. It must not replace qualified diagnosis, approved operating procedures, or equipment-specific safety instructions.

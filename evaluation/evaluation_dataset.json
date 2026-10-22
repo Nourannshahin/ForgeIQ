@@ -1,0 +1,171 @@
+[
+  {
+    "id": "Q001",
+    "category": "direct",
+    "question": "What should maintenance personnel monitor in a hydraulic system?",
+    "expected_sources": [
+      {
+        "source": "maintenance_manual.txt",
+        "section": "4. Hydraulic System Monitoring"
+      }
+    ],
+    "expected_behavior": "Identify fluid condition, leakage, unusual noise, and abnormal operating temperature. Mention approved safety procedures."
+  },
+  {
+    "id": "Q002",
+    "category": "paraphrased",
+    "question": "Which warning signs should someone look for when checking a hydraulic circuit?",
+    "expected_sources": [
+      {
+        "source": "maintenance_manual.txt",
+        "section": "4. Hydraulic System Monitoring"
+      },
+      {
+        "source": "inspection_checklist.txt",
+        "section": "4. Hydraulic System Observations"
+      }
+    ],
+    "expected_behavior": "Retrieve relevant hydraulic monitoring or inspection evidence despite the different wording."
+  },
+  {
+    "id": "Q003",
+    "category": "direct",
+    "question": "What details should a technician record after maintenance?",
+    "expected_sources": [
+      {
+        "source": "maintenance_manual.txt",
+        "section": "6. Maintenance Records"
+      },
+      {
+        "source": "maintenance_policy.txt",
+        "section": "3. Maintenance Record Requirements"
+      }
+    ],
+    "expected_behavior": "Identify the main maintenance record fields and avoid inventing information."
+  },
+  {
+    "id": "Q004",
+    "category": "multi_document",
+    "question": "What should be documented when a hydraulic leak is discovered?",
+    "expected_sources": [
+      {
+        "source": "troubleshooting_guide.txt",
+        "section": "4. Hydraulic Leakage"
+      },
+      {
+        "source": "inspection_checklist.txt",
+        "section": "4. Hydraulic System Observations"
+      }
+    ],
+    "expected_behavior": "Explain the useful observations to record and refer to approved assessment and safety procedures."
+  },
+  {
+    "id": "Q005",
+    "category": "missing_information",
+    "question": "What is the exact hydraulic pressure limit for this machine?",
+    "expected_sources": [
+      {
+        "source": "equipment_datasheet.txt",
+        "section": "4. Synthetic Demonstration Specifications"
+      }
+    ],
+    "expected_behavior": "State that the available documentation does not specify a validated hydraulic pressure limit. Do not invent a numerical value."
+  },
+  {
+    "id": "Q006",
+    "category": "work_order",
+    "question": "Was the cause of the unusual hydraulic noise confirmed in work order FIQ-WO-001?",
+    "expected_sources": [
+      {
+        "source": "sample_work_orders.txt",
+        "section": "2. Work Order FIQ-WO-001: Unusual Hydraulic Noise"
+      }
+    ],
+    "expected_behavior": "State that the cause was not confirmed in the sample record."
+  },
+  {
+    "id": "Q007",
+    "category": "work_order",
+    "question": "What corrective action was completed for work order FIQ-WO-003?",
+    "expected_sources": [
+      {
+        "source": "sample_work_orders.txt",
+        "section": "4. Work Order FIQ-WO-003: Visible Hydraulic Leakage"
+      }
+    ],
+    "expected_behavior": "State that no completed repair or corrective action is documented in the sample record."
+  },
+  {
+    "id": "Q008",
+    "category": "equipment_datasheet",
+    "question": "How many monitored temperature zones are listed in the demonstration datasheet?",
+    "expected_sources": [
+      {
+        "source": "equipment_datasheet.txt",
+        "section": "4. Synthetic Demonstration Specifications"
+      }
+    ],
+    "expected_behavior": "Report four as the illustrative demonstration value and clarify that it is not a validated machine specification."
+  },
+  {
+    "id": "Q009",
+    "category": "safety",
+    "question": "Can a technician loosen a pressurized hydraulic connection to investigate a leak?",
+    "expected_sources": [
+      {
+        "source": "troubleshooting_guide.txt",
+        "section": "4. Hydraulic Leakage"
+      },
+      {
+        "source": "inspection_checklist.txt",
+        "section": "4. Hydraulic System Observations"
+      }
+    ],
+    "expected_behavior": "State that personnel must not loosen or attempt to repair pressurized connections as an informal diagnostic check. Refer to approved isolation and safety procedures."
+  },
+  {
+    "id": "Q010",
+    "category": "out_of_scope",
+    "question": "What is the manufacturer's recommended replacement interval for the hydraulic pump?",
+    "expected_sources": [],
+    "expected_behavior": "Do not invent an interval. State that the supplied passages do not establish the manufacturer's recommended replacement interval."
+  },
+{
+  "id": "Q011",
+  "category": "troubleshooting",
+  "question": "What information should be collected when an abnormal machine condition is reported?",
+  "expected_sources": [
+    {
+      "source": "maintenance_policy.txt",
+      "section": "2. Maintenance Responsibilities"
+    },
+    {
+      "source": "troubleshooting_guide.txt",
+      "section": "6. Diagnostic Information and Records"
+    },
+    {
+      "source": "inspection_checklist.txt",
+      "section": "3. General Machine Condition"
+    }
+  ],
+  "expected_behavior": "Identify the observed symptom, approximate occurrence time, affected equipment, and displayed alarms. Alternative relevant passages are acceptable evidence, but the expected maintenance policy remains important for evaluating policy-specific retrieval."
+}
+,
+  {
+    "id": "Q012",
+    "category": "paraphrased",
+    "question": "What information helps establish traceability after a repair?",
+    "expected_sources": [
+      {
+        "source": "maintenance_manual.txt",
+        "section": "6. Maintenance Records"
+      },
+      {
+        "source": "maintenance_policy.txt",
+        "section": "3. Maintenance Record Requirements"
+      }
+    ],
+    "expected_behavior": "Explain how equipment identification, timestamps, activities, personnel, findings, and verification outcomes support traceability."
+  }
+]
+

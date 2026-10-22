@@ -1,0 +1,103 @@
+# ForgeIQ Demo Facility
+
+# Injection-Molding Machine Technical Datasheet
+
+Document ID: FIQ-DS-001
+Revision: 1.0
+Document Type: Equipment Technical Datasheet
+Status: Fictional document for ForgeIQ development and testing
+
+## 1. Purpose and Scope
+
+This datasheet describes a fictional injection-molding machine configuration used to test document retrieval, specification lookup, and source attribution in ForgeIQ.
+
+All equipment identifiers, component details, and numerical values in this document are synthetic examples. They do not describe a real machine and must not be used for equipment selection, commissioning, operation, maintenance, or safety decisions.
+
+## 2. Equipment Identification
+
+Equipment identifier: FIQ-IMM-001
+
+Equipment description: Fictional injection-molding machine
+
+Equipment category: Manufacturing equipment
+
+Primary subsystems:
+
+* Injection unit
+* Clamping unit
+* Hydraulic drive system
+* Temperature control system
+* Machine control system
+
+Intended demonstration use: Testing an industrial maintenance knowledge assistant.
+
+## 3. Component Register
+
+The fictional machine contains the following example components.
+
+Component ID: FIQ-CMP-001
+Component name: Injection unit
+Function: Heats and injects polymer material into the mold.
+
+Component ID: FIQ-CMP-002
+Component name: Clamping unit
+Function: Holds the mold closed during the injection process.
+
+Component ID: FIQ-CMP-003
+Component name: Hydraulic drive system
+Function: Supplies hydraulic actuation for the fictional machine configuration.
+
+Component ID: FIQ-CMP-004
+Component name: Temperature control system
+Function: Monitors and regulates relevant machine temperature zones.
+
+Component ID: FIQ-CMP-005
+Component name: Machine control system
+Function: Coordinates machine operation and processes available control signals.
+
+## 4. Synthetic Demonstration Specifications
+
+The following values are invented solely to demonstrate how ForgeIQ retrieves numerical information from a document.
+
+Demonstration parameter: Nominal cycle duration
+Synthetic example value: 30 seconds
+Status: Illustrative value, not a validated machine specification.
+
+Demonstration parameter: Number of monitored temperature zones
+Synthetic example value: 4
+Status: Illustrative configuration for software testing.
+
+Demonstration parameter: Number of listed machine subsystems
+Synthetic example value: 5
+Status: Count of the subsystems listed in Section 2.
+
+These examples are not approved operating limits, production targets, equipment ratings, or maintenance thresholds.
+
+This datasheet does not specify hydraulic pressure limits, maximum operating temperatures, electrical ratings, or safety limits.
+
+## 5. Specification Interpretation
+
+A value appearing in this datasheet describes only the fictional configuration defined in this document.
+
+The presence of a numerical value does not establish that the value is suitable for another machine or configuration.
+
+ForgeIQ should preserve the distinction between:
+
+* A value explicitly stated in the source document.
+* A value calculated from documented information.
+* A value that is missing from the available documentation.
+* An illustrative value created for software testing.
+
+If a requested specification is absent, the assistant must state that the available documentation does not specify it rather than inventing a value.
+
+## 6. Document Control
+
+Document ID: FIQ-DS-001
+
+Revision: 1.0
+
+Document status: Fictional demonstration document.
+
+Purpose of revision: Initial document created for testing ForgeIQ's retrieval and answer-generation pipeline.
+
+This document is not an approved industrial engineering specification and must not replace manufacturer documentation or qualified engineering review.

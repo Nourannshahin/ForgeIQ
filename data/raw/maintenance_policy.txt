@@ -1,0 +1,157 @@
+# ForgeIQ Demo Facility
+
+# Maintenance Management Policy
+
+Document ID: FIQ-POL-001
+Revision: 1.0
+Document Type: Maintenance Policy
+Status: Fictional document for ForgeIQ development and testing
+
+## 1. Purpose
+
+This policy defines fictional examples of maintenance responsibilities, documentation practices, and escalation principles for the ForgeIQ demonstration environment.
+
+It is intended to test the assistant's ability to retrieve organizational requirements and distinguish policy statements from technical specifications.
+
+This document is not an approved policy for any real facility. Actual maintenance activities must follow the applicable organization's approved procedures, manufacturer documentation, and safety requirements.
+
+## 2. Maintenance Responsibilities
+
+### 2.1 Operators
+
+Operators may report abnormal machine behavior and provide relevant information about operating conditions.
+
+A useful report should describe the observed symptom, the approximate time of occurrence, the affected equipment, and any displayed alarms.
+
+Operators must not perform maintenance activities beyond their authorization and training.
+
+### 2.2 Maintenance Technicians
+
+Authorized maintenance technicians are responsible for documenting assigned maintenance activities and recording relevant observations and findings.
+
+Records should distinguish between:
+
+* Reported symptoms.
+* Directly observed conditions.
+* Suspected causes.
+* Confirmed findings.
+* Corrective actions performed.
+* Verification outcomes.
+
+A suspected cause must not be recorded as a confirmed diagnosis without supporting evidence.
+
+### 2.3 Engineering Personnel
+
+Appropriately qualified engineering personnel may be involved when a fault requires further technical investigation, when recurring abnormalities need analysis, or when an engineering assessment is required.
+
+The involvement of engineering personnel does not remove the need to follow approved safety and authorization requirements.
+
+## 3. Maintenance Record Requirements
+
+A maintenance record should contain, where applicable:
+
+* Equipment identifier.
+* Work order or record identifier.
+* Date and time.
+* Reporting person's identifier.
+* Reported symptom.
+* Observed equipment condition.
+* Relevant readings and alarm messages.
+* Inspection or diagnostic activities performed.
+* Findings and their supporting evidence.
+* Corrective actions.
+* Replacement parts, if applicable.
+* Responsible personnel.
+* Verification outcome.
+* Escalation details, if applicable.
+
+Information that is unavailable should be marked as unknown or not recorded, as appropriate.
+
+Records must not contain invented readings, unverified diagnoses, or undocumented claims that an activity was completed.
+
+## 4. Fault Classification
+
+For demonstration purposes, maintenance reports may be grouped into the following categories.
+
+### 4.1 Routine Observation
+
+A recorded condition that requires documentation or assessment but has not been established as a fault.
+
+Example: An operator reports an unusual sound without a confirmed cause.
+
+### 4.2 Abnormal Condition
+
+An observation or indication that requires assessment under the applicable maintenance process.
+
+Example: A displayed temperature reading differs from the relevant approved process specification.
+
+### 4.3 Unresolved Fault
+
+A fault whose cause or appropriate corrective action has not yet been established.
+
+Example: A recurring machine interruption remains unexplained after the initial assessment.
+
+### 4.4 Safety-Related Concern
+
+A condition that may affect personnel safety or equipment integrity.
+
+Safety-related concerns must be handled under the applicable approved safety and escalation procedures. This policy does not define a complete safety classification system.
+
+## 5. Escalation Requirements
+
+An issue should be escalated through the appropriate approved process when:
+
+* The cause of an abnormal condition remains unexplained.
+* A fault recurs after a documented corrective action.
+* Available documentation does not establish the required specification or procedure.
+* A condition may affect personnel safety or equipment integrity.
+* Additional technical authority or specialist assessment is required.
+
+The escalation record should identify the issue, the available evidence, the actions already taken, the unresolved questions, and the person or function receiving the escalation.
+
+ForgeIQ must not invent an escalation recipient or claim that an escalation has occurred unless the available records support that statement.
+
+## 6. Document Authority and Conflicts
+
+Different documents serve different purposes.
+
+A maintenance manual provides general equipment information. A technical datasheet may provide component specifications. An inspection checklist describes items to observe. A work order records a particular maintenance event. A policy describes organizational requirements.
+
+These documents should not be treated as interchangeable.
+
+If documents appear to conflict, ForgeIQ should identify the conflicting statements and their sources rather than silently selecting one as correct.
+
+The assistant must not assume that the newest-looking document is approved or authoritative unless its revision and approval status have been established.
+
+Unresolved conflicts must be referred to the appropriate qualified personnel or approved document-control process.
+
+## 7. Role of ForgeIQ
+
+ForgeIQ is a document retrieval and question-answering assistant.
+
+It may:
+
+* Locate relevant passages in the available knowledge base.
+* Summarize documented requirements.
+* Identify the source supporting an answer.
+* Explain when requested information is missing.
+* Highlight conflicting statements for further review.
+
+It must not:
+
+* Replace qualified engineering judgment.
+* Invent equipment specifications or maintenance records.
+* Certify equipment as safe.
+* Claim that an inspection or maintenance activity was performed without evidence.
+* Authorize equipment operation or maintenance.
+* Present fictional demonstration documents as approved industrial procedures.
+
+## 8. Document Control
+
+Document ID: FIQ-POL-001
+
+Revision: 1.0
+
+Document status: Fictional demonstration document.
+
+Purpose of revision: Initial policy created for testing ForgeIQ's document retrieval, source attribution, and answer-generation behavior.

@@ -1,0 +1,127 @@
+# ForgeIQ Demo Facility
+
+# Sample Maintenance Work Orders
+
+Document ID: FIQ-WO-SAMPLES-001
+Revision: 1.0
+Document Type: Synthetic Maintenance Records
+Status: Fictional records for ForgeIQ development and testing
+
+## 1. Purpose and Scope
+
+This document contains three fictional maintenance work orders for the demonstration equipment identified as FIQ-IMM-001.
+
+The records are synthetic examples created to test ForgeIQ's ability to retrieve historical events, summarize recorded observations, distinguish findings from suspected causes, and identify incomplete records.
+
+No work described in this document is claimed to have occurred at a real facility.
+
+These records do not establish approved troubleshooting procedures, equipment operating limits, or safety instructions.
+
+## 2. Work Order FIQ-WO-001: Unusual Hydraulic Noise
+
+Work order identifier: FIQ-WO-001
+
+Equipment identifier: FIQ-IMM-001
+
+Reported symptom: An operator reported unusual noise from the hydraulic system.
+
+Record date: 2026-09-14
+
+Observed condition: The maintenance record notes intermittent unusual noise during machine operation. No confirmed component failure was documented.
+
+Information reviewed: The available record mentions the reported noise and the need to assess the hydraulic system condition. It does not contain sufficient evidence to establish a root cause.
+
+Corrective action: No completed corrective action is documented in this sample record.
+
+Verification outcome: Not recorded.
+
+Work order status: Open in the fictional demonstration record.
+
+Important limitation: This record does not establish that the hydraulic pump, fluid, or any other specific component was faulty.
+
+## 3. Work Order FIQ-WO-002: Abnormal Temperature Indication
+
+Work order identifier: FIQ-WO-002
+
+Equipment identifier: FIQ-IMM-001
+
+Reported symptom: A temperature indication was reported as abnormal.
+
+Record date: 2026-09-18
+
+Observed condition: The fictional record reports a displayed temperature of 82 degrees Celsius in one monitored zone. The applicable approved process specification was not included in the record.
+
+Information reviewed: The record identifies a temperature indication requiring further assessment. It does not establish whether the reading exceeded the correct limit for the relevant machine configuration or process.
+
+Corrective action: No completed corrective action is documented in this sample record.
+
+Verification outcome: Not recorded.
+
+Work order status: Awaiting further assessment in the fictional demonstration record.
+
+Important limitation: The recorded value of 82 degrees Celsius is synthetic demonstration data, not an approved operating temperature or safety threshold. The record does not establish a sensor fault, cooling fault, or other confirmed cause.
+
+## 4. Work Order FIQ-WO-003: Visible Hydraulic Leakage
+
+Work order identifier: FIQ-WO-003
+
+Equipment identifier: FIQ-IMM-001
+
+Reported symptom: Visible hydraulic fluid leakage was reported.
+
+Record date: 2026-09-22
+
+Observed condition: The fictional record documents a visible fluid leak near a hydraulic connection. The precise source of the leakage was not confirmed.
+
+Information reviewed: The record describes the reported location and observed condition. It does not establish the cause or confirm the condition of the connection.
+
+Corrective action: The record indicates that the issue was referred for assessment by authorized maintenance personnel. No completed repair is documented.
+
+Verification outcome: Not recorded.
+
+Work order status: Referred for assessment in the fictional demonstration record.
+
+Important limitation: This record does not establish that a particular seal, hose, fitting, or other component failed. It does not authorize anyone to inspect or repair pressurized equipment.
+
+## 5. Historical Record Interpretation
+
+Work orders document individual events and the information recorded about them.
+
+A reported symptom is not necessarily a confirmed fault. An observed condition does not automatically establish a root cause. A proposed corrective action does not establish that the action was completed.
+
+When answering questions about historical maintenance, ForgeIQ should distinguish between:
+
+* What was reported.
+* What was directly observed.
+* What was assessed.
+* What cause, if any, was confirmed.
+* What corrective action was documented.
+* Whether the action was completed.
+* Whether a verification outcome was recorded.
+* The work order's recorded status.
+
+If a field is absent or explicitly marked as not recorded, ForgeIQ must not invent a value.
+
+## 6. Cross-Record Analysis
+
+The three sample work orders contain different reported symptoms:
+
+* FIQ-WO-001 records unusual hydraulic noise.
+* FIQ-WO-002 records an abnormal temperature indication.
+* FIQ-WO-003 records visible hydraulic leakage.
+
+All three records lack a documented verification outcome.
+
+The records do not establish that the three events share a common cause, that any component failed, or that any corrective action resolved the reported condition.
+
+ForgeIQ may summarize these documented patterns, but it must not infer a confirmed recurring failure or common root cause without supporting evidence.
+
+## 7. Document Control
+
+Document ID: FIQ-WO-SAMPLES-001
+
+Revision: 1.0
+
+Document status: Synthetic demonstration records.
+
+Purpose of revision: Initial collection of fictional work orders for testing ForgeIQ's historical-record retrieval and answer-generation capabilities.

@@ -1,0 +1,123 @@
+# ForgeIQ Demo Facility
+
+# Injection-Molding Machine Inspection Checklist
+
+Document ID: FIQ-IC-001
+Revision: 1.0
+Document Type: Inspection Checklist
+Status: Fictional document for ForgeIQ development and testing
+
+## 1. Purpose and Scope
+
+This checklist provides a fictional example of how routine inspection observations may be organized for an injection-molding machine.
+
+It is designed to test ForgeIQ's ability to retrieve checklist items, identify relevant machine subsystems, and explain recording requirements.
+
+This is a synthetic demonstration document, not an approved inspection checklist. It does not authorize work on real equipment or replace manufacturer instructions, site procedures, or applicable safety requirements.
+
+## 2. Equipment Identification
+
+Equipment identifier: FIQ-IMM-001
+
+Equipment description: Fictional injection-molding machine
+
+Inspection record identifier: To be assigned for each inspection.
+
+Inspection date and time: To be recorded by the authorized inspector.
+
+Inspector identifier: To be recorded by the authorized inspector.
+
+## 3. General Machine Condition
+
+Example inspection observations include:
+
+* Record any visible external damage.
+* Record unusual sounds or vibrations observed during authorized operation.
+* Record unexpected alarms displayed by the machine control system.
+* Record visible signs of leakage or contamination.
+* Record any abnormal condition reported by the operator.
+
+For each observation, record the affected area, the observed condition, and any relevant supporting information.
+
+An observation alone does not establish a confirmed root cause.
+
+## 4. Hydraulic System Observations
+
+Example observation categories include:
+
+* Visible hydraulic fluid leakage.
+* Apparent changes in hydraulic fluid condition, where assessment is authorized.
+* Unusual hydraulic system noise.
+* Abnormal temperature indications.
+* Relevant alarms or reported changes in machine behavior.
+
+Record the observation, its location where identifiable, the time it was noticed, and any associated symptoms.
+
+Do not touch, loosen, or attempt to repair pressurized hydraulic connections as an informal inspection activity.
+
+Hydraulic inspection and maintenance must follow approved isolation and safety procedures.
+
+## 5. Temperature Control System Observations
+
+Example observation categories include:
+
+* Displayed temperature readings for relevant machine zones.
+* Temperature alarms or abnormal indications.
+* Differences between observed readings and the applicable approved process specification.
+* Reported instability in temperature regulation.
+
+Record the affected zone, displayed reading, time of observation, and relevant alarm information.
+
+This checklist does not establish acceptable temperature ranges or authorize changes to temperature settings.
+
+## 6. Machine Control System Observations
+
+Example observation categories include:
+
+* Active alarm messages.
+* Unexpected status indicators.
+* Missing or inconsistent displayed sensor readings.
+* Reported interruptions in normal machine operation.
+
+Record the exact displayed alarm text where available, the affected subsystem, the time of occurrence, and the machine state when the observation was made.
+
+Do not assume that an alarm message alone identifies the underlying cause.
+
+## 7. Inspection Record Requirements
+
+A completed demonstration inspection record should contain:
+
+* Equipment identifier.
+* Inspection record identifier.
+* Inspection date and time.
+* Inspector identifier.
+* Subsystem inspected.
+* Checklist item or observation category.
+* Recorded observation.
+* Supporting readings or alarm messages, if available.
+* Follow-up action or escalation, if applicable.
+* Verification outcome, when follow-up is completed.
+
+If an item cannot be inspected, record it as not inspected rather than assuming that it passed.
+
+If information is unavailable, record it as unknown or not recorded rather than inventing a value.
+
+## 8. Recording and Escalation
+
+Observed abnormalities should be documented and handled according to the applicable approved site procedures.
+
+Conditions that may affect personnel safety, equipment integrity, or reliable operation should be escalated through the appropriate maintenance process.
+
+An inspector's observation, a suspected cause, and a confirmed diagnosis must be recorded as distinct types of information.
+
+ForgeIQ may retrieve and summarize checklist requirements, but it must not certify equipment as safe or authorize operation based solely on this document.
+
+## 9. Document Control
+
+Document ID: FIQ-IC-001
+
+Revision: 1.0
+
+Document status: Fictional demonstration document.
+
+Purpose of revision: Initial checklist created for testing ForgeIQ's document retrieval and answer-generation capabilities.
